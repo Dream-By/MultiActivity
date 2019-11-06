@@ -1,12 +1,9 @@
 package com.example.multiactivity;
 
-import android.app.Activity;
-import android.app.*;
 import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 
-import androidx.annotation.Nullable;
-
-public class AboutActivity extends Activity{
+public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
